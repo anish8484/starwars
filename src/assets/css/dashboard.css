@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  padding: 20px;
+}
+
+.user {
+    color: #457add;
+    font-weight: bold;
+}
+
+.login{
+    text-align: center;
+}
+.container {
+    padding: 16px;
+    max-width: 500px;
+}
+
+.error {
+    color:#f00;
+}
+
+.circle {
+  position: relative;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  color: #457add;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+.planetName {
+    position: absolute;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.planetName:hover{
+    text-decoration: underline;
+}
+
+.info {
+    font-size: 12px;
+    width: 190px;
+    color: #fff;
+    background: #457add;
+    opacity: 0.8;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.planet {
+    margin: 20px;
+    display: inline-flex;
+}
+
+/* Logout CSS */
+.logout {
+    float: right;
+}
+
+.click {
+    cursor: pointer;
+}
